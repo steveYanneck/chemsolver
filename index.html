@@ -9,7 +9,29 @@
     <script src="index.js"></script>
     <title>Chemsolver</title>
 </head>
-<body>
-    
+<body class="bg-dark">
+    <div class="container-fluid" id="header">
+        <h5>steveYanneck Chemsolver</h5>
+    </div>
+    <div>
+        <select class="form-select position-relative top-0 start-50 translate-middle-x" aria-label="Formulekiezer" id="form" onchange="onSelect()">
+            <option selected>Kies formule</option>
+            <option value="dilution">Verdunningsregel</option>
+            <option value="nFromMass">Stofhoeveelheid van massa</option>
+            <option value="molarConcentration">Molaire Concentratie</option>
+        </select>
+    </div>
+    <div id="dilutionProperties" style="display: none" name="propertyBox">
+        <div id="propertyContainer" class="position-relative top-0 start-50 translate-middle-x">
+            <select class="form-select position-relative top-0 start-50 translate-middle-x" aria-label="Variable" id="dilutionVarForm" onchange="dilutionVar()">
+                <option selected>Kies variabele</option>
+                <option value="Concentration">Concentratie</option>
+                <option value="Volume">Volume</option>
+            </select>
+        </div>
+        <div name="propertyContainer" style="display: none;" id="dilutionConcentrationProperties" class="position-relative top-0 start-50 translate-middle-x">
+            hello!
+        </div>
+    </div>
 </body>
 </html>

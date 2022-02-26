@@ -1,0 +1,41 @@
+#header {
+    color: white;
+    padding: 15px;
+    background-color: rgb(19, 22, 31);
+}
+
+#form {
+    width: 90%;
+    background-color: rgb(61, 65, 78);
+    border: 2.5px solid rgb(81, 114, 223);
+    color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+#propertyContainer {
+    width: 90%;
+    background-color: rgb(61, 65, 78);
+    border: 2.5px solid rgb(81, 114, 223);
+    color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+#varForm {
+    width: 90%;
+    background-color: rgb(61, 65, 78);
+    border: 2.5px solid rgb(81, 223, 112);
+    color: white;
+    border-radius: 10px;
+    margin-top: 1rem; 
+}
+
+#dilutionVarForm {
+    width: 90%;
+    background-color: rgb(61, 65, 78);
+    border: 2.5px solid rgb(81, 114, 223);
+    color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
